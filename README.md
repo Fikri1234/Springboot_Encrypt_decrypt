@@ -18,3 +18,12 @@ The application will have the following encryption following:
 7. SHA-2 (224, 256, 384, 512, 512/224, 512/256) [Encrypt]
 8. SHA-3 (224, 256, 384, 512) [Encrypt]
 9. GOST [Encrypt - Decrypt]
+
+## Deployment Strategy with Docker
+Open cmd on your project directory
+
+### Compose up
+
+```
+docker-compose up --build
+```
