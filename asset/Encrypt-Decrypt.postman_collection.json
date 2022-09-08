@@ -1,0 +1,3057 @@
+{
+	"info": {
+		"_postman_id": "2cf77fb8-aa2d-416c-bf46-3225e0e84dee",
+		"name": "Encrypt-Decrypt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22118446"
+	},
+	"item": [
+		{
+			"name": "SHA",
+			"item": [
+				{
+					"name": "SHA 224",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"224\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 224",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"224\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:14:32 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"465+VfmQJbyApYSdYEKFkiJrvIyGnrKXYPjSvQ==\"\n}"
+						}
+					]
+				},
+				{
+					"name": "SHA 256",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"256\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 256",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"256\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:15:21 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"Xpg84JFmPjAcSyzIfNrYOo49odwsVwp2ktIvx5KigDw=\"\n}"
+						}
+					]
+				},
+				{
+					"name": "SHA 384",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"384\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 384",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"384\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:15:30 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"OEfxFEhjk6WQQE2VdJzkUd+gPNOYvINHruNzUI2quO4JgZ5eWSDKOa3gZ52ct/0n\"\n}"
+						}
+					]
+				},
+				{
+					"name": "SHA 512",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"512\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 512",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"512\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:15:39 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"QVMlP7iblZ6kQ8GVgn3pK8Z79WZRYN++nWrdRuKUvc/845105QhhneNHezFHTz4+kebU0xmmtx5cjQDCABHOIw==\"\n}"
+						}
+					]
+				},
+				{
+					"name": "SHA 512/224",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"512/224\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 512/224",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"512/224\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:15:49 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"JQQpM8VJ9pR1VXHn63nzYEIFBgceTKzbg6TvHA==\"\n}"
+						}
+					]
+				},
+				{
+					"name": "SHA 512/256",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"512/256\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 512/256",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"512/256\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:15:58 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"TSGjvgZxE7NB8ZXD7lCqDgc3paz5aS+GCB8r1HPgNlE=\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "SHA-3",
+			"item": [
+				{
+					"name": "SHA 224",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"224\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha-3",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha-3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 224",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"224\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha-3",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha-3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:16:09 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"Ph6QSLLHbLyJ7DsaOfuMenlraJdEqJhjPp6sVQ==\"\n}"
+						}
+					]
+				},
+				{
+					"name": "SHA 256",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"256\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha-3",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha-3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 256",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"256\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha-3",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha-3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:16:18 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"d8JMmODvyD0E3KMOveSKAGQZmg4sxIbMchllU3ti7vQ=\"\n}"
+						}
+					]
+				},
+				{
+					"name": "SHA 384",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"384\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha-3",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha-3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 384",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"384\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha-3",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha-3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:16:25 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"3w4sg13HRDllw3Z7PlB+06X17dpRF18WkiF2VrVCsgAwBP7r4NGVCtuBlO0KgDIX\"\n}"
+						}
+					]
+				},
+				{
+					"name": "SHA 512",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"size\": \"512\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/sha-3",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sha-3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "SHA 512",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"size\": \"512\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sha-3",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sha-3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:16:36 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"chRmW2OVO+VJ946pezclFuebZxTUE68edFtQrKlOWvf2l7vjP/5SJR2boPVofR8yqqG+2FYtNlCz6FG375UHOQ==\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "3DES",
+			"item": [
+				{
+					"name": "encrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/3des",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"3des"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "encrypt",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/3des",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"3des"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:17:14 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"e26062eedec331f940b6865bb1323d90\"\n}"
+						}
+					]
+				},
+				{
+					"name": "decrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"e26062eedec331f940b6865bb1323d90\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/3des",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"3des"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "decrypt",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"e26062eedec331f940b6865bb1323d90\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/3des",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"3des"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:17:31 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Blowfish",
+			"item": [
+				{
+					"name": "encrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/blowfish",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"blowfish"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "encrypt",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/blowfish",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"blowfish"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:19:07 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"7b56483156b74bc24a34c6afa5c88675\"\n}"
+						}
+					]
+				},
+				{
+					"name": "decrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"7b56483156b74bc24a34c6afa5c88675\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/blowfish",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"blowfish"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "decrypt",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"7b56483156b74bc24a34c6afa5c88675\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/blowfish",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"blowfish"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:19:25 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Twofish",
+			"item": [
+				{
+					"name": "encrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/twofish",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"twofish"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "encrypt",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/twofish",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"twofish"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:19:38 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"mvq2neRRabrRsIyE+dMfmhE01zLLN9bAKDRiB4pJgnqWutZcADOG+HZVRrO2HY/K\"\n}"
+						}
+					]
+				},
+				{
+					"name": "decrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"JxcaFdouwaX6hIvv+zbHCvoD5fDaKcmjqLOcqAApz9Rz7AzuQsFo6hR13b1KwGus\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/twofish",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"twofish"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "decrypt",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"JxcaFdouwaX6hIvv+zbHCvoD5fDaKcmjqLOcqAApz9Rz7AzuQsFo6hR13b1KwGus\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/twofish",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"twofish"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:19:43 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "MD5",
+			"item": [
+				{
+					"name": "encrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/md5",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"md5"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "encrypt",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/md5",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"md5"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:20:01 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"cfa367b8c722276271814b6f19b729b0\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gost",
+			"item": [
+				{
+					"name": "encrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/gost",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"gost"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "encrypt",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/gost",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"gost"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:20:15 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"ftLggGCXICri2ZEu6OpC+/9AFs1kI2MVBAsXbwfv1x4=\"\n}"
+						}
+					]
+				},
+				{
+					"name": "decrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"5sEQ4GEytrSiQc4QpEKkLccOts/rHIuiF1nljn6OqVY=\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/gost",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"gost"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "decrypt",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"5sEQ4GEytrSiQc4QpEKkLccOts/rHIuiF1nljn6OqVY=\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/gost",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"gost"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:20:22 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "RSA-Gen",
+			"item": [
+				{
+					"name": "RSA-Gen 512",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"bit\": \"512\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa-gen",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa-gen"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "RSA-Gen 512",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"bit\": \"512\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa-gen",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa-gen"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:20:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"publicKey\": \"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJmk05azdzljZJL9YmSOy+d7PYx4GLMLnt5HQ9geAPYwhdcnusDT2MS10R7hsoZv4APRcfv6Qjv/VD6RgfndyR0CAwEAAQ==\",\n    \"privateKey\": \"MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAmaTTlrN3OWNkkv1iZI7L53s9jHgYswue3kdD2B4A9jCF1ye6wNPYxLXRHuGyhm/gA9Fx+/pCO/9UPpGB+d3JHQIDAQABAkAGVv0NH6Aoi8+jWhXEiPjkdxshz/XS84SNbvrfcNOA1Qx8pMuDVvX/1MU0dx70FLHnXPUuRjUtBp51Ik/lUwnpAiEAn8w2QKLiMMqC5OCCu0XHUCwC07x9fZLEnIZ+d9NOMnUCIQD2JDE+RoK/Kp5ddx2tgzHIC5o3a0HX7VZQdkefqY+XCQIgDpS3rpYuRX11DCVgSG5JjYs2htOAL+Egh5fOGmjxjbECIQCUL/X1qD3PGbl+S9hyPioaZeHSu6BIf3sXth4o4cyxAQIgWkLBdob+EkgXe0X4nI+acokR/sZn4l2YbnbEldsuoRM=\"\n}"
+						}
+					]
+				},
+				{
+					"name": "RSA-Gen 1024",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"bit\": \"1024\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa-gen",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa-gen"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "RSA-Gen 1024",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"bit\": \"1024\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa-gen",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa-gen"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:20:51 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"publicKey\": \"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRA4y3ltHlbF4DcFz9fvFfaKM4dEmNiyxqiER80RaN+AMFPpXBH6EahLVO4+v+Dq0kV3rQqqM9o/HrCp4Z8+NyccgoSi7H5VxEr9K5K96Ujd7LZpJ6E1ZJkFuuL7OXJO364qvrOmhGCFLRXZGEfTSOB+M9Zh8D0sGarY0MVjddxQIDAQAB\",\n    \"privateKey\": \"MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAJEDjLeW0eVsXgNwXP1+8V9oozh0SY2LLGqIRHzRFo34AwU+lcEfoRqEtU7j6/4OrSRXetCqoz2j8esKnhnz43JxyChKLsflXESv0rkr3pSN3stmknoTVkmQW64vs5ck7friq+s6aEYIUtFdkYR9NI4H4z1mHwPSwZqtjQxWN13FAgMBAAECgYAMhRQaP5+0i+QcA5ChDtt+WMA1c2NsSyvqW1nKYETvEeQKM7U7Mg9h2jugaYYqQ5By7EiSs8DEkB8mo0kzcBPetYCvx/6yPds29tTH1hiMYB/dbtoyWlkIQk7nzm+NKcMqPeJMd60at+IGKTo0EbbJ8FerLJaBTQzmP5CEH43sOwJBAMEnYEleElSdirVK+G7hgjwOt9q81Xb5+w9cwUueh6wfh7jNjXUgtmTR0ee78TRfNBEotfPKHPbrMEhjvGT5DJ8CQQDAMmMnI2Pd6UWV42UvMrHnU7CE6AKt5d/xBVhJGq5sdmd5JHTciCjhv8erkWyHZ7uI6IEOOG7cV10QlnaZt1cbAkBpsPcyDkSvgmlFHJnmaoVOAau/CHcyHEWxuUqX605H9BTbHbca8WR8tIdMa33n73RZM1Kk7OJ+hmEsK08KXXD3AkEAshK9XXjjwaqtZ2fNy0IsJQmcZjfUq6xtpZFvMCSBcUrvKgXGJMIfJrKa3HKb3IUW842AbV2KEar8Ni9Cab+9+wJAcchr46YKo3rP/fPDea4JM+cFcm6It9cZ35J3t1xpKatjCRAIya/gy4PxvrCvnaDAL650UlnqRsET0OijX2yQjA==\"\n}"
+						}
+					]
+				},
+				{
+					"name": "RSA-Gen 2048",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"bit\": \"2048\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa-gen",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa-gen"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "RSA-Gen 2048",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"bit\": \"2048\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa-gen",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa-gen"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:21:00 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"publicKey\": \"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAohCa34dYxsM8glr0EZXnmeX/bxv3bgs//38wK+IDAb4/o6oGSNpyfc3F3TFbWLXBCveM2aD1rNLUUfROhediFUWR2qaugPJ6L3mLNklcw4N1hObO4V7iWqX1XvXXzPx24d88y50PaqvahOwalwKzTs36hCmGfnPosjR2THz49BMsFvdDBpEJlGLYpmKxZGmemZ7njpIA2gRcHiol+YUIP/rmstX29o4pHxw4h8gi2rici0KDB0K5WVpYrWWNCEPOw+o7G1zBCTT5pkzmVy8luZmttm6trTOa52Rge8l/eaADNVYTObbrgDsk4IJxI54sZiSJEJybNKGp3t2x6EmNcQIDAQAB\",\n    \"privateKey\": \"MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCiEJrfh1jGwzyCWvQRleeZ5f9vG/duCz//fzAr4gMBvj+jqgZI2nJ9zcXdMVtYtcEK94zZoPWs0tRR9E6F52IVRZHapq6A8noveYs2SVzDg3WE5s7hXuJapfVe9dfM/Hbh3zzLnQ9qq9qE7BqXArNOzfqEKYZ+c+iyNHZMfPj0EywW90MGkQmUYtimYrFkaZ6ZnueOkgDaBFweKiX5hQg/+uay1fb2jikfHDiHyCLauJyLQoMHQrlZWlitZY0IQ87D6jsbXMEJNPmmTOZXLyW5ma22bq2tM5rnZGB7yX95oAM1VhM5tuuAOyTggnEjnixmJIkQnJs0oane3bHoSY1xAgMBAAECggEAP27XZ6FuxpF5WB5ohI+TkKG86ozcOmbN3F+4h5yVh7Oi7hjpD8/s2z/U7+BXPDAbyIKfTzlYn5X/w7onl/K6adAKqDXwfIkr+PQOYKezVtVYBLZgiEbeuxNVKJ96IYI5t+vsPFgTxjFQvRE60Rud+jzWDq/ANDODA2lUWljaCpHs+rriOI2m8uqrSoQQdjqgXxyT6JMXRqa/PrlT9R2qMML87m9SikI7Eba61oJJytYdPvqHerMUHNd5sVXSLmp/NM637QD1/u3xoyiY/OANQueCSwLK0elRxIGIIdCwA/CkZExLB+PYDdaWfYIPyjzuqXNIPoaKyNNBPAil0I0olwKBgQDFYAXz9pmLRuzIop5JAEV+AeItfpYOoracRuqVTB7s/8i6lB6c+WjQkW1rKUK8BjhMLRJMA9PuSy2dcIGNvMIeL8eig9blpSzqiYkIY84a1F7TwL2U5jgXnJkkJ8pYtziygnmLSXoMc0cfM4dnqBck3SdcI67sic+qyTIRAjnXIwKBgQDSM6sGlXRaJ5TJ5h+Qit9QkuW/w7KYX9T6dpJyVDZI2tFx65tDZgMgYIQEjQLlbd0XaqP6OTGtkgsnUoMRK+7vC4F5DZiy99mG58T1VXx+96Un0/BXW/3GycKudcVCcomkkg+CmjJ2eWI3mrOteDoUikWeKN1xHg7eTX6KbUjcWwKBgEhwfp7UcfQZGsxkSr22OMsPe+iAnihO9cCTkoMrBeqr0gsQU8//BcYOqd77rL9/dOgYXq/Bc+Xwd5Rh91qC3afgl1+BDb0JC1wlEEMhBkL4kLkc8zeT6yBXXClV5UD8NfXmRx+k3wN0x7Se3+JeYegotsptWkT8K1ieMR7m9z2LAoGBAIy6ErIhtPf2r+JLsq4uizuCXVZ5SkRBRHE6mOj6AC3ecYJ3XkdNMKKoezogveOkHfTjbEzFpcCymc0FrMH+S8S2S0QkGisXTAbJfE9ToDnQyj1T4wBZkhlYUoJCToIh9Iy9TKz/VvGCaoMXi1uDtj6yI9GzQi3NFd82upUqfTEpAoGAaua7F/igPUYpyWegNSNt7SZevsyPcqkw+sv7gViM2K5JIM14ZoaTwqBQg+wrt0v98b/97rVurtloB1cErZq2O8EnHzncbnlu2iNemO4h3lcqWFDmf39GSD+YH7gh396FjvqD6zgvoD1hnCYMukbD5CToEKayjXGmPLnXdNfJG6M=\"\n}"
+						}
+					]
+				},
+				{
+					"name": "RSA-Gen 4096",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"bit\": \"4096\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa-gen",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa-gen"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "RSA-Gen 4096",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"bit\": \"4096\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa-gen",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa-gen"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:21:19 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"publicKey\": \"MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1NHMsb1v3rUK7MA8gxU1uZX6xwLnQk6dkWte7GmHYU5+e320k+EJcGSxQoMPns+adpmBBVBFafhOHrdYnupkWYMlH/7LkQQYF4hCMgbXX/JbYWtQeDUnrPxVwYujZYtN1Dx5LyvZE3ncVUYjRnKRXiBnih1uEw9XyrBy4sDumLMxbrRI0bwQkGdSoN6Zdwi7WO5v+rOVsoD78R3TeBO0xUHfWtt9bJ46Ho/WBE6s9PtMovDZ3eRwXtfcm7XkTVHZtzZX3zA3V8gBwBCyxMZvjD5qTUO1O2Pyuy2A+xhLyqm4JdycRO5MMK6odfDqcxk14p1ZXlREvq2AXnG35UkdUKZx9mdiP2M38yIJAYEh9HXb3jfzW4o1lRXA6qus65QGC8BzFNQ9J8pv6QhS7vozN4f62J4pUcSeo86B7OShIliyhiHfkqDjF6xUtwt5Zyab9NSbOpvX8o6rgWz9PFvSakd9Gss0sLVeHttjlP7lmZKpN+CqQqriFTBs3EXBAdP1BYQbBmVnFOH8698FViFITLQjI/nwTiSnNDRurBMpoeTiUSq334pTSNbpZr/GwSa5MkrgQxQZEWMjwBoV9VjhQya5Qkt3BZiR2epY4IWlQPUfVJN6WfIejLAfEl+/Q67V/DB0kml5BGgsgbjYdDyLRycnJpFaj2WdtFzsrY43FNUCAwEAAQ==\",\n    \"privateKey\": \"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\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "RSA",
+			"item": [
+				{
+					"name": "Encrypt 512",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"input\": \"hahahihi\",\r\n    \"privateKey\": \"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIHslvMcjgkyI4djPfl2IiKdzPZql3gegBlmbLtaZtI9txBbe3JlZgisv+UvzDxZ+0NLfII6JLPKHOLdpi6OW18CAwEAAQ==\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Encrypt 512",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"input\": \"hahahihi\",\r\n    \"privateKey\": \"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIHslvMcjgkyI4djPfl2IiKdzPZql3gegBlmbLtaZtI9txBbe3JlZgisv+UvzDxZ+0NLfII6JLPKHOLdpi6OW18CAwEAAQ==\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:21:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"BLfdfG2CGCPibsoh78k6PmERCd3W7dr4e3uUucB4UfqMa+pLMcIGq6VhI87OOFM7DN3/VdJIZtJnhMMHYSusSw==\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Decrypt 512",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"input\": \"F5p0E8s7qfK7Czo2Wo6/V2bZpcyh0tLioCVr4Mw0H7LfJZ8G7It5e80ahE+o/DLB8IHLm2PKI1PaognT51juyw==\",\r\n    \"privateKey\": \"MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAgeyW8xyOCTIjh2M9+XYiIp3M9mqXeB6AGWZsu1pm0j23EFt7cmVmCKy/5S/MPFn7Q0t8gjoks8oc4t2mLo5bXwIDAQABAkAI6sYJdYJCG1DY7/TG9FavbYktuG8g7Wb5V1BLI48/CqfV94lmZ01xGYyWsO/9Ii3j7iFKF2SSK1/3YepeIrphAiEA3AHZGTrH75TZ3C9qEc7lF6+MbmJF7tHU2/EAfRE0dMkCIQCXLfYu4lFSASRoiLkrHRWObWKOn9uzHmdqcvO2fJAq5wIgVbXymj2oPtJCveFK9X0hC0U89JQcopnkz3rosdDOGuECIAeLDYuNU01qLSziFYsnKlou7wn6w/WOAM746VwjnvXlAiEAzJZcf2LCH08koBxZMD6mGN119FImkaOJnvOBlP5/hd0=\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Decrypt 512",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"input\": \"F5p0E8s7qfK7Czo2Wo6/V2bZpcyh0tLioCVr4Mw0H7LfJZ8G7It5e80ahE+o/DLB8IHLm2PKI1PaognT51juyw==\",\r\n    \"privateKey\": \"MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAgeyW8xyOCTIjh2M9+XYiIp3M9mqXeB6AGWZsu1pm0j23EFt7cmVmCKy/5S/MPFn7Q0t8gjoks8oc4t2mLo5bXwIDAQABAkAI6sYJdYJCG1DY7/TG9FavbYktuG8g7Wb5V1BLI48/CqfV94lmZ01xGYyWsO/9Ii3j7iFKF2SSK1/3YepeIrphAiEA3AHZGTrH75TZ3C9qEc7lF6+MbmJF7tHU2/EAfRE0dMkCIQCXLfYu4lFSASRoiLkrHRWObWKOn9uzHmdqcvO2fJAq5wIgVbXymj2oPtJCveFK9X0hC0U89JQcopnkz3rosdDOGuECIAeLDYuNU01qLSziFYsnKlou7wn6w/WOAM746VwjnvXlAiEAzJZcf2LCH08koBxZMD6mGN119FImkaOJnvOBlP5/hd0=\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:21:53 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Encrypt 1024",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"input\": \"hahahihi\",\r\n    \"privateKey\": \"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTNHQ3V6DidKnSSZGviKjDt0SKrOmt4GL4yVw4afpxUxN+fydKf86iNe5ICGBdhB0FOrqvLo9lnKpVIeVtOIjV5FjWzdAJka6lrgTdeWTNtZa0y7TAP5Rz9vj/4vKLzsNFaL60XeyOWNOi20Sq3kOlnoKdkFjO0LhrjtdWJTKJnwIDAQAB\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Encrypt 1024",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"input\": \"hahahihi\",\r\n    \"privateKey\": \"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTNHQ3V6DidKnSSZGviKjDt0SKrOmt4GL4yVw4afpxUxN+fydKf86iNe5ICGBdhB0FOrqvLo9lnKpVIeVtOIjV5FjWzdAJka6lrgTdeWTNtZa0y7TAP5Rz9vj/4vKLzsNFaL60XeyOWNOi20Sq3kOlnoKdkFjO0LhrjtdWJTKJnwIDAQAB\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:22:04 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"kez6OizKheLqHD/I44AcwnBw820rspDFCmMFS6jrdfnOHLLw5ZncUi+48ZmyLbxeQ1i91jv5HT8OsYdjiXm3nflW16c+1HDoJX5H9CngYHatvIUdZOGbps2svl8nTRBJJkouUC48w214W2KWMPS560l+qGWLA/L+Dj8amKNue6E=\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Decrypt 1024",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"input\": \"GdEKiNpQcQSOHdiB6j9flffZIcnSXO6gJyGeXdILI00LO8k4CvpA7+byrPEo547y0OPtU4C1HIivNX+5FaS7AKjkyT8Lv0w+QS4N/0as83vQgsiUm53KZwfhHdrODc4hQCBI+DER3jimhnyK+VX7UmZgUQhAHpIITaNRtLUh3gY=\",\r\n    \"privateKey\": \"MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAJM0dDdXoOJ0qdJJka+IqMO3RIqs6a3gYvjJXDhp+nFTE35/J0p/zqI17kgIYF2EHQU6uq8uj2WcqlUh5W04iNXkWNbN0AmRrqWuBN15ZM21lrTLtMA/lHP2+P/i8ovOw0VovrRd7I5Y06LbRKreQ6Wegp2QWM7QuGuO11YlMomfAgMBAAECgYAph/EJ9CUl/vgypiL+PTYwEbK61VIQhnAl9NmZ6PyJoICtfb5eHHT1+vVBSWu2tqFhalJlPmOirXK5FhkemYaxMeIKH4Kc/gkuw51nYjL202wQrCcyPRlGb9vk1vwZXYOfC1inAt0WpksYN4rrH30qDNkriZ3BmW1Rr3l4HXICkQJBAPD2Oew54EtwwDTztg8gov6NY2B3MhBTsqhsld9h2pJ809db7sctN5TmOC4Oo6z9dghx/JjovOcQrG2aLx55T3UCQQCcZE1G3mYvT77qn784gFokyi6b1t+CBupwfh22yzKjoXR9XqQXAlRPNwLpM3GTBKYE1pyNh+UQr7TDNpFYfgZDAkEA29MFjKhQIwK9lpEvaiWQDUHXg026coKo3lYRdDTFPhZ6/GF2OGbb6g8M+ZeJYmvonlO+6ZCJpRLk+yhKDDcHcQJAduLYy/LtAzJAE+P0XWNVI3p/DADAT/wp4/I7bGXzzOhDwbpcSxF+Pem30MdGo1h5TFxJDl4sCA9J/sxQmVDUOQJBALWrGMtz4IbusnqnbofN+Iocg4hf5NAcg7xiaaCY4KU26KsDCGKxvSEfI4B4LiimW/Ph51UM1ePzIz7CcINjxgo=\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Decrypt 1024",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"input\": \"GdEKiNpQcQSOHdiB6j9flffZIcnSXO6gJyGeXdILI00LO8k4CvpA7+byrPEo547y0OPtU4C1HIivNX+5FaS7AKjkyT8Lv0w+QS4N/0as83vQgsiUm53KZwfhHdrODc4hQCBI+DER3jimhnyK+VX7UmZgUQhAHpIITaNRtLUh3gY=\",\r\n    \"privateKey\": \"MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAJM0dDdXoOJ0qdJJka+IqMO3RIqs6a3gYvjJXDhp+nFTE35/J0p/zqI17kgIYF2EHQU6uq8uj2WcqlUh5W04iNXkWNbN0AmRrqWuBN15ZM21lrTLtMA/lHP2+P/i8ovOw0VovrRd7I5Y06LbRKreQ6Wegp2QWM7QuGuO11YlMomfAgMBAAECgYAph/EJ9CUl/vgypiL+PTYwEbK61VIQhnAl9NmZ6PyJoICtfb5eHHT1+vVBSWu2tqFhalJlPmOirXK5FhkemYaxMeIKH4Kc/gkuw51nYjL202wQrCcyPRlGb9vk1vwZXYOfC1inAt0WpksYN4rrH30qDNkriZ3BmW1Rr3l4HXICkQJBAPD2Oew54EtwwDTztg8gov6NY2B3MhBTsqhsld9h2pJ809db7sctN5TmOC4Oo6z9dghx/JjovOcQrG2aLx55T3UCQQCcZE1G3mYvT77qn784gFokyi6b1t+CBupwfh22yzKjoXR9XqQXAlRPNwLpM3GTBKYE1pyNh+UQr7TDNpFYfgZDAkEA29MFjKhQIwK9lpEvaiWQDUHXg026coKo3lYRdDTFPhZ6/GF2OGbb6g8M+ZeJYmvonlO+6ZCJpRLk+yhKDDcHcQJAduLYy/LtAzJAE+P0XWNVI3p/DADAT/wp4/I7bGXzzOhDwbpcSxF+Pem30MdGo1h5TFxJDl4sCA9J/sxQmVDUOQJBALWrGMtz4IbusnqnbofN+Iocg4hf5NAcg7xiaaCY4KU26KsDCGKxvSEfI4B4LiimW/Ph51UM1ePzIz7CcINjxgo=\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:22:13 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Encrypt 2048",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"input\": \"hahahihi\",\r\n    \"privateKey\": \"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsqRwevz9qPxuRJPFS9RYPKSDDYHA6kfG1MbMLsU4KRhuTFdq0fScXdhwW0IIj2bDmBPygCUuGGochycABZAt5o0UUr0NvlJ+BlfIK+JiQScZyaQxTBge8CkbIrRBecthGRKhHo9Lb199MlHbxWhtDa0wEOkCkX5BycDS6SqH+io1POjQ2/kx4P5GNWWKQwbcxmyzHqG1cPyGKnB85Nua+J819qGt5lrL9CBKgFQ112+9+v51Sp8QBhuxHoL0rZ24vOXT/GNPjZwFkbmWCbvUO1eUCl3YlNvfmRM4kdiKJkVWzzO+1k5GCOwaOdkKfeCsGr6s3GD+hE0WdIva00E9RQIDAQAB\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Encrypt 2048",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"input\": \"hahahihi\",\r\n    \"privateKey\": \"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsqRwevz9qPxuRJPFS9RYPKSDDYHA6kfG1MbMLsU4KRhuTFdq0fScXdhwW0IIj2bDmBPygCUuGGochycABZAt5o0UUr0NvlJ+BlfIK+JiQScZyaQxTBge8CkbIrRBecthGRKhHo9Lb199MlHbxWhtDa0wEOkCkX5BycDS6SqH+io1POjQ2/kx4P5GNWWKQwbcxmyzHqG1cPyGKnB85Nua+J819qGt5lrL9CBKgFQ112+9+v51Sp8QBhuxHoL0rZ24vOXT/GNPjZwFkbmWCbvUO1eUCl3YlNvfmRM4kdiKJkVWzzO+1k5GCOwaOdkKfeCsGr6s3GD+hE0WdIva00E9RQIDAQAB\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:22:24 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"PzjC7yFaeHcPn8ojizzrIKbv+fbdI1QjYUCKp4p/pCjAeNXCZ/23Px/V1C6DlB48mVE89ZEk+hUNfqrWH22z8f0hn/HjuwbgTQ8Nij7mcSZzil602nQIQHa9GzNgpwUKz3/HdBDfa26B1e2SuxM9qZP99TQRLbzEHqcls6vSdAEGsOzoBXDITwduHho5ZUfg0MhhTTvn00Qa6CKBJtPTHqGJXVGxTtA2OGWYflTuNzeOqfhsb/K7EGvrto0oOkCgZinHrC88biJXiRNGpk4RIL/veh7ZPLFwDSI6ymUjLQKYhCcYztJv4/H0Wwh8cdJpkqhdjdSqve4ZZA0oi38eLA==\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Decrypt 2048",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"input\": \"KR0V0hC4wNMoieOFqWsy+ZlTzANDSCVbu0BfiODx8wkpiuMg3D2mr91z+N/D0vjmPyVpaQKm/irShlJxvn9PdZq6BvzmHcxH5fSIwnSGEIcq8gX9VjS1YCl6oVW3C3IAhlvMpv7c9CPT0aeXteERXCtzCyUPXJQOEtTRu9XGCpJ6AewKDZA2GS+K9F0prFDRc4s+zYA+tJvIKsjwKAT5ABKBSUwD4qAuy08Pp4o5c7Tpy+SYJc5wWl7XZfw/lQ6m3utdctbxBNz31UqhVKV3lhcQJoZ49oZioFMmyJDyg2Fp2vIwVCZZ43uV0gRE0rsYgYDV6/mqaZ6Xp+2b5Ot9sw==\",\r\n    \"privateKey\": \"MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCypHB6/P2o/G5Ek8VL1Fg8pIMNgcDqR8bUxswuxTgpGG5MV2rR9Jxd2HBbQgiPZsOYE/KAJS4YahyHJwAFkC3mjRRSvQ2+Un4GV8gr4mJBJxnJpDFMGB7wKRsitEF5y2EZEqEej0tvX30yUdvFaG0NrTAQ6QKRfkHJwNLpKof6KjU86NDb+THg/kY1ZYpDBtzGbLMeobVw/IYqcHzk25r4nzX2oa3mWsv0IEqAVDXXb736/nVKnxAGG7EegvStnbi85dP8Y0+NnAWRuZYJu9Q7V5QKXdiU29+ZEziR2IomRVbPM77WTkYI7Bo52Qp94KwavqzcYP6ETRZ0i9rTQT1FAgMBAAECggEALMoU14k50hYkUXZZR7dgPigjIY5QP40qeWu0gt94wrj44pQiWKzDTbY4CXFncwjZbnZF3UI1KfLk3y/0jfCFyaHCoDH9UaQeK9nzeqlCaEJ08T0FDSaZDy7HOm7GYdKPsDkfA2n7CFwBKE4k03xopz6uZ/b76V2mAf8iAkrjF+H1BYYyKBsv7eaiDaU1L2XMTaz1iglxGNm44IA1fAZV3X8KVAN07XecdK7L5nWupKxYuvQ7MDnnb+FjlOsZGBmfy8ZUesGRddrNMe12hYrUuGkHTh6WqImZBxXeVwTDd4q13+qOTitG+HB2wwEWNH3wdMfBOlWfiPfWSYo8y1MuGwKBgQDU4v3nx3Z21EVn7p4oH4obBXkq9ybgTZD31sIlEPIWaLaMh6njOomCsw1IP1BohjLn0+i0bPCSXQrR7gjjymBkSgEdHxhnDjWai3OVOuf8HC43g6UJ4QedqN79i6Dhd3mb2N5FoBe8xpMXCfI/z3pFbPP08vAw/QDFm0qT0/OZywKBgQDW0hDeL2NoJ+R0HHW/Z9gXKarDTZiefs50BFDnPIqVdgo9NxIjWk2hRpHrurUnRwxwdVvQTGXy2PQGv+LpBgih+cIdhsDyBqL/3OQVr0/TDfUibUAjJqYD/3FV+KtM6a9QYu0nv8YcJHdzynSwh36y2mDIgMUVf4SaDWp3F1vjLwKBgDieXlUEkZctAYCQz/Nv3/Ur0XwB248QUhv4PA5LoXcgRly9wAs1CFmAcWnjnOkPt/48N8m0p47lu/j1S9v5eQVzQTSTjpPqDYuaxxTLY+ODQy90jbJA7RubTCM2vYT5l5hBZ2wxFd8ZGQmplYovDh/kyEU/T25X+5qSoJUMa99dAoGAGGTOSYy0CxXMmWrJ7CxMm4S9wWPEWusnYoFC9p8nVYWL8Bua0azld9TdqRkQjR9CSFrrTCIAyazdOQ79I1zuCgakhlnQ+yrJw6g/tj6sH9lL5tblG5i97WJKamrMePVoVQaGy6a5RmTVs65fxdP9DS5DI0GMH77VPfEcD931Lz0CgYA/5yqErnAm8WYzQ/VthICsxG3KFYW3tLvur6wgGDcDPmRuNifkHhwSFh8Ljx7SP7F2XRkZOuCdU5gTF7TnrSZQY/d8sv08kRwvAcqUBWTZwlKBxsYrnWESNHhzNj67v4YEA3aFSYzbAm0Azvusj2S2JhFTknto6jkLYumCQIzJ2Q==\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Decrypt 2048",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"input\": \"KR0V0hC4wNMoieOFqWsy+ZlTzANDSCVbu0BfiODx8wkpiuMg3D2mr91z+N/D0vjmPyVpaQKm/irShlJxvn9PdZq6BvzmHcxH5fSIwnSGEIcq8gX9VjS1YCl6oVW3C3IAhlvMpv7c9CPT0aeXteERXCtzCyUPXJQOEtTRu9XGCpJ6AewKDZA2GS+K9F0prFDRc4s+zYA+tJvIKsjwKAT5ABKBSUwD4qAuy08Pp4o5c7Tpy+SYJc5wWl7XZfw/lQ6m3utdctbxBNz31UqhVKV3lhcQJoZ49oZioFMmyJDyg2Fp2vIwVCZZ43uV0gRE0rsYgYDV6/mqaZ6Xp+2b5Ot9sw==\",\r\n    \"privateKey\": \"MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCypHB6/P2o/G5Ek8VL1Fg8pIMNgcDqR8bUxswuxTgpGG5MV2rR9Jxd2HBbQgiPZsOYE/KAJS4YahyHJwAFkC3mjRRSvQ2+Un4GV8gr4mJBJxnJpDFMGB7wKRsitEF5y2EZEqEej0tvX30yUdvFaG0NrTAQ6QKRfkHJwNLpKof6KjU86NDb+THg/kY1ZYpDBtzGbLMeobVw/IYqcHzk25r4nzX2oa3mWsv0IEqAVDXXb736/nVKnxAGG7EegvStnbi85dP8Y0+NnAWRuZYJu9Q7V5QKXdiU29+ZEziR2IomRVbPM77WTkYI7Bo52Qp94KwavqzcYP6ETRZ0i9rTQT1FAgMBAAECggEALMoU14k50hYkUXZZR7dgPigjIY5QP40qeWu0gt94wrj44pQiWKzDTbY4CXFncwjZbnZF3UI1KfLk3y/0jfCFyaHCoDH9UaQeK9nzeqlCaEJ08T0FDSaZDy7HOm7GYdKPsDkfA2n7CFwBKE4k03xopz6uZ/b76V2mAf8iAkrjF+H1BYYyKBsv7eaiDaU1L2XMTaz1iglxGNm44IA1fAZV3X8KVAN07XecdK7L5nWupKxYuvQ7MDnnb+FjlOsZGBmfy8ZUesGRddrNMe12hYrUuGkHTh6WqImZBxXeVwTDd4q13+qOTitG+HB2wwEWNH3wdMfBOlWfiPfWSYo8y1MuGwKBgQDU4v3nx3Z21EVn7p4oH4obBXkq9ybgTZD31sIlEPIWaLaMh6njOomCsw1IP1BohjLn0+i0bPCSXQrR7gjjymBkSgEdHxhnDjWai3OVOuf8HC43g6UJ4QedqN79i6Dhd3mb2N5FoBe8xpMXCfI/z3pFbPP08vAw/QDFm0qT0/OZywKBgQDW0hDeL2NoJ+R0HHW/Z9gXKarDTZiefs50BFDnPIqVdgo9NxIjWk2hRpHrurUnRwxwdVvQTGXy2PQGv+LpBgih+cIdhsDyBqL/3OQVr0/TDfUibUAjJqYD/3FV+KtM6a9QYu0nv8YcJHdzynSwh36y2mDIgMUVf4SaDWp3F1vjLwKBgDieXlUEkZctAYCQz/Nv3/Ur0XwB248QUhv4PA5LoXcgRly9wAs1CFmAcWnjnOkPt/48N8m0p47lu/j1S9v5eQVzQTSTjpPqDYuaxxTLY+ODQy90jbJA7RubTCM2vYT5l5hBZ2wxFd8ZGQmplYovDh/kyEU/T25X+5qSoJUMa99dAoGAGGTOSYy0CxXMmWrJ7CxMm4S9wWPEWusnYoFC9p8nVYWL8Bua0azld9TdqRkQjR9CSFrrTCIAyazdOQ79I1zuCgakhlnQ+yrJw6g/tj6sH9lL5tblG5i97WJKamrMePVoVQaGy6a5RmTVs65fxdP9DS5DI0GMH77VPfEcD931Lz0CgYA/5yqErnAm8WYzQ/VthICsxG3KFYW3tLvur6wgGDcDPmRuNifkHhwSFh8Ljx7SP7F2XRkZOuCdU5gTF7TnrSZQY/d8sv08kRwvAcqUBWTZwlKBxsYrnWESNHhzNj67v4YEA3aFSYzbAm0Azvusj2S2JhFTknto6jkLYumCQIzJ2Q==\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:22:33 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Encrypt 4096",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"input\": \"hahahihi\",\r\n    \"privateKey\": \"MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArDbI1ShtD7PrrZVFFhNqqBBwBKuiI60M5aGCrhZAhhPMSnDqN/5LSdVSb8rnXbziwQ2bN1Y3wxQGN3tB2COmJjFSo8EDC0Mco6y5lyS8JTD0xSR5vLFKJXOPFOS/hm/6uvZW44nxlv7Uv7DNbB/jWkOKduM1XtF+QsB0Q1WOQPqx22S8ZKRnnSaNoCjIEw1DLj9UxHHjLjM216a5DkTBaeKaOfO2EQ3108bfVAolwLH8H2v/QUhZ8syx3QL9W39fSFbcrf3heHTmlHPRluh+tdJ4tRkGDnO/hL3PHfHc1eRTIgP6lWejJE9S5rtou78Qmb0jTJjPcjJ5jLp9Njx1/BYxlmgo3lGU0zQrjUre58CMtRBWFI+aQ+vrqF+xrlV46tu4Ku676M8/VsV/7JAolG/MkQFw2SsHRp++ynu6q4/W3JWtCVC2WVv8rpMlNppbv80adGhH2Mbh0yijWF++/mpNEotHonxANQ2GPYwWBIbVfA/ax+FIg487RU3Rxizq+t1Njiv3hoEyCbWi1V730fuHDLhecpVRqAMM3smlJrNoLsSPm3fNUMhGhObhGcp7yrlRuPR7mlBhLCsG8qV11h/Ldts6ABeg6YsCPC3VfsHhEI89yg5vyqkHI/zgC977MljLGcNikuUyo9bUvQmY1ceL8HqiGjQjAtCWhdbuTwsCAwEAAQ==\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Encrypt 4096",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"input\": \"hahahihi\",\r\n    \"privateKey\": \"MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArDbI1ShtD7PrrZVFFhNqqBBwBKuiI60M5aGCrhZAhhPMSnDqN/5LSdVSb8rnXbziwQ2bN1Y3wxQGN3tB2COmJjFSo8EDC0Mco6y5lyS8JTD0xSR5vLFKJXOPFOS/hm/6uvZW44nxlv7Uv7DNbB/jWkOKduM1XtF+QsB0Q1WOQPqx22S8ZKRnnSaNoCjIEw1DLj9UxHHjLjM216a5DkTBaeKaOfO2EQ3108bfVAolwLH8H2v/QUhZ8syx3QL9W39fSFbcrf3heHTmlHPRluh+tdJ4tRkGDnO/hL3PHfHc1eRTIgP6lWejJE9S5rtou78Qmb0jTJjPcjJ5jLp9Njx1/BYxlmgo3lGU0zQrjUre58CMtRBWFI+aQ+vrqF+xrlV46tu4Ku676M8/VsV/7JAolG/MkQFw2SsHRp++ynu6q4/W3JWtCVC2WVv8rpMlNppbv80adGhH2Mbh0yijWF++/mpNEotHonxANQ2GPYwWBIbVfA/ax+FIg487RU3Rxizq+t1Njiv3hoEyCbWi1V730fuHDLhecpVRqAMM3smlJrNoLsSPm3fNUMhGhObhGcp7yrlRuPR7mlBhLCsG8qV11h/Ldts6ABeg6YsCPC3VfsHhEI89yg5vyqkHI/zgC977MljLGcNikuUyo9bUvQmY1ceL8HqiGjQjAtCWhdbuTwsCAwEAAQ==\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:22:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"F+xx717O/ETA8ONgdWh3z+TZPaUij8aSgExapiAo0LSjQHkHQfPBY7iivmNUFbtlx2PJXzke1Oe50eZquwD4JB8XmjKgXMrjBvZ0a8ZSopzwDXYHPxF8QZesVPoImx6+lNNOnN9812Y0wIc/fi5+7pJC3+7xJTSIE33me36Jz5Alrb7whXmqVLL8kl1THCs2meNdXhc78OqN7H+GdeJEsQ641ASxfdqR/wIblHLU5VSjoWUbSthRcjoN8dWjthPFAHOTaksmWsogR0qeHAc1Oidz6I4Y0ozUJXCgDHILyFgfiCrm3PLwRd7z9Cbad5MQzSuEl1LmoPqmS/x19yjyvF/HDS3hMpypoEorZnyvIpgLPPsr7c51DJw4asw0H36JtcKEZogFWpsBCHVNI1IYOqOvq0wclX3YnhXLllMzc/SscjRABWwdGgllpvBCKrglDx4o7aXcUFa+s6zmhJrXxwFAJHgbNONpcddE+tk6v9ZWUZcOZjdfi601Vbxh9LX/T7MlU88fdXQttQ2AHaSMj/EaHXdKYXD+U4sb9JxhUnD1OkG3G6Q7sDEpBZmtatYTYzaRaW1DwZVTslSAN2nc7G/Lf8au1IB3WwuGFwSKvQktgL+QX88cnl3IcZE0OqWpYni1C66BEws0ZSP2kzUFmKMxEcxQdoxTda9ZwPsWS4k=\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Decrypt 4096",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"input\": \"ANQ0mnj0G6xRGfGVZ3Xhojop00yuyX12GoCQAs+oxGyPZ8ANtDit6JG98oHZ/13/nThh4WfGhnvlCmPGmiEFPapg8w4VDYBnLBR8u7/jCdL49lfeXpxdeU55GaXfavAkBBq8FQdzMl5T3bRvRxWpiuaXwCkUN/dD5jC6rTw5tYz6wcwps4QDWlVbB1MdJxosPKD2nM4y/JC+D9yNisZcUC/nx7YEAnZztLAH0rCXTNSIL5wHqOtfjAJjjgN96pjVYCOQhE6wOxJWax0/GECrgPnyKaHoGy8be+gjKUdvwWLjDUVyGMWMzB9t71RZigsJKtOXH4FCNP09dKBeoPHP5a0361dAmzwq2/OE50nvnRAz7kaLFHLKRLpbW9dwzsAZwTteeYlByIvYIZ6AdDvayD0fICi7GsvzAKZJpotuLULtAH5wfuLqFDlNU85e9684Aoc1HMPqHiklFPEq7bZ5G/oJG93TImdl7DrYEKedNTRMYWkZMsAHSXuZBRA40LvE420KXkZVRQH70Flo+j3L5wVgjmfIQvSdKnq1sKZfP/W3Yr899HeOE3lgtKuPFe7QAwZrehCWpCAqMoZ99hgMBDr92oM15Tv67wg411npOeZ3+Ad7BnOC7s9e7GG9JzaqywoEnY5i6wE4QjyNN4bTDYWPPr2Ea0/Xfn4AnUFm+RY=\",\r\n    \"privateKey\": \"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\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/rsa",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rsa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Decrypt 4096",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"input\": \"ANQ0mnj0G6xRGfGVZ3Xhojop00yuyX12GoCQAs+oxGyPZ8ANtDit6JG98oHZ/13/nThh4WfGhnvlCmPGmiEFPapg8w4VDYBnLBR8u7/jCdL49lfeXpxdeU55GaXfavAkBBq8FQdzMl5T3bRvRxWpiuaXwCkUN/dD5jC6rTw5tYz6wcwps4QDWlVbB1MdJxosPKD2nM4y/JC+D9yNisZcUC/nx7YEAnZztLAH0rCXTNSIL5wHqOtfjAJjjgN96pjVYCOQhE6wOxJWax0/GECrgPnyKaHoGy8be+gjKUdvwWLjDUVyGMWMzB9t71RZigsJKtOXH4FCNP09dKBeoPHP5a0361dAmzwq2/OE50nvnRAz7kaLFHLKRLpbW9dwzsAZwTteeYlByIvYIZ6AdDvayD0fICi7GsvzAKZJpotuLULtAH5wfuLqFDlNU85e9684Aoc1HMPqHiklFPEq7bZ5G/oJG93TImdl7DrYEKedNTRMYWkZMsAHSXuZBRA40LvE420KXkZVRQH70Flo+j3L5wVgjmfIQvSdKnq1sKZfP/W3Yr899HeOE3lgtKuPFe7QAwZrehCWpCAqMoZ99hgMBDr92oM15Tv67wg411npOeZ3+Ad7BnOC7s9e7GG9JzaqywoEnY5i6wE4QjyNN4bTDYWPPr2Ea0/Xfn4AnUFm+RY=\",\r\n    \"privateKey\": \"MIIJQQIBADANBgkqhkiG9w0BAQEFAASCCSswggknAgEAAoICAQCsNsjVKG0Ps+utlUUWE2qoEHAEq6IjrQzloYKuFkCGE8xKcOo3/ktJ1VJvyuddvOLBDZs3VjfDFAY3e0HYI6YmMVKjwQMLQxyjrLmXJLwlMPTFJHm8sUolc48U5L+Gb/q69lbjifGW/tS/sM1sH+NaQ4p24zVe0X5CwHRDVY5A+rHbZLxkpGedJo2gKMgTDUMuP1TEceMuMzbXprkORMFp4po587YRDfXTxt9UCiXAsfwfa/9BSFnyzLHdAv1bf19IVtyt/eF4dOaUc9GW6H610ni1GQYOc7+Evc8d8dzV5FMiA/qVZ6MkT1Lmu2i7vxCZvSNMmM9yMnmMun02PHX8FjGWaCjeUZTTNCuNSt7nwIy1EFYUj5pD6+uoX7GuVXjq27gq7rvozz9WxX/skCiUb8yRAXDZKwdGn77Ke7qrj9bcla0JULZZW/yukyU2mlu/zRp0aEfYxuHTKKNYX77+ak0Si0eifEA1DYY9jBYEhtV8D9rH4UiDjztFTdHGLOr63U2OK/eGgTIJtaLVXvfR+4cMuF5ylVGoAwzeyaUms2guxI+bd81QyEaE5uEZynvKuVG49HuaUGEsKwbypXXWH8t22zoAF6DpiwI8LdV+weEQjz3KDm/KqQcj/OAL3vsyWMsZw2KS5TKj1tS9CZjVx4vweqIaNCMC0JaF1u5PCwIDAQABAoIB/3/f0RIZOFa2cRtE6h8F7s9oTfPkCa+5z5P4/Ju8GLjqhiRjVp7I1x7NXwwAzLSIL9e1cUXrkMIbSt+Kj0KRwZ8mF/EjGtm2WLxHnHAqM+eYWz98HABGjZlwHfzxUl0j4GbE4TRCaCGfdIizkUm4NV9FU0WuWU/3hJr1BwJs+Ut1OG0762IVmn1cOoeyTCPZb2YWWsPgtdA7TmZ12mfsd1Sc1y4CbC7JXXpXvR/Yl6Q4J/4VvtEAooPtTCTncH9Rzyi5VvVPpmIRJeAs2hcc6SgZlPwp3myuQCqWl9dekflYNAWCYzIwNq2/fs9Jn0yyTSzycv3KehCXmMEsRFkBdMeww0Rk6AM1jTxhe194ShGf3qDiqLB/JQyR9WTrJA9WjTA05R3l4xhuQ8hVRHMrXfifc+EeAH50LslqorOULb7nTSMReXGliEdCWymSr5rrofhWihO3d5CuPHHHpirVO7Kg6Lf2e+0iJmvpOntW7GqUPA8N9Rb59LH7APNh6sg+M4/iknaa8VBTTi9eioIyznvesIcc/hygoJ+/uZxkQUi9ytdV+NMP3wlz1QokSxzyma6SpSDIufWwoh2Jksy+B6bdgd5+khT4XniHlAjNasPhJrMZNA2bLRQJxqF+nDZB10jv8mbvZxAUejYdv+XB9skMd5buryhpc9PakIot+JkCggEBAN8Oz5r68L3cS/X3w8YVkx8mAzw6mF2TqZIlj83x1hKENGL+GXR64Lwe8nMtafBtrc5EIpXipjbj6mSxuF/fkGt0t3qNdWdwG6LrwsuWpCC3VGfUPn7Kwn4QdodaiqYYrVU6G5UmirxNthe5ulHt1ldM0u84T3u8rwSrJEi9g5SdqUSLayS8u1ZtE/UqNtFwAc5OrsdgyMpheW63/j/j+uos2Wj/XFymxYsSyqwWYAqCf74PCejgIF7Vr2syVaptWhBn0dy/lQBFeGbVIS6px9wF4D49msjiQHQrYOpDJcfag4F7i5Lsa0hMATpysoJpw5PCAtN2qYfEWri4xyO18b8CggEBAMWltfCSoSXgVKXprobVNx5crpulynaQlJz6LS46bPsAPy8I2DbpoDGdt6AexSCHC9zz3DTd7z+fbK+ltClcsGU1KKX99FhZkEa4NDsW9qmue9cuooeMAt05oDCF948d8z4gsvDWMVzr3zrUrRFU83oyOTRySJ2uECCzHTGy86g9a64gD5FlQ2YrubWy8BMLPZMXwUCajz9aPAeOqz8heE8wYyRaxhmZ++2N6ExXLR7/bGqZJ4zYDoB6fKRV7zH9Dr/XNVYJAc7iQUkVc5zdNRcvf1CE8FrKsJsJ37lnjCktDYhmHXfbKWldfTR+LnOJbWUntOt74JEaYsDHyi+IXbUCggEBAII9aaa6Qvr4uDmkM2Fjk4WqclUmeXSaFXbKC89aF360RspOR5qlbLcq8rGhoKvLvqIjUnZl4ltGdMPaqScBqJe1jLQ4CIcfBGP6eMDa8nZP1S7S1LK/vRRSlIKvsSkOW5bZ2OUbngIY9eugfFP+JRrQNpGLNY2wPBjjvMnkLgIGlKD7LtJCiLgL9I0/2sYrOkK12oN71YGlrHujXwb7HLTC/ya5g7ptfgaYMFKOtgEs9V2J9mVNCFmXN1fGChL6yo2tsPHNwzhnV8fjRf6zD4k+vRJachg9UxkBgxMFpfetdP+TnYlqFbIe/tCby/Mtwg5yR6glLxOg6L/W1B/byo0CggEAey/YYTQSyneyaqJmS9VygDMGBS7lLNbaOajYJhr2N88kkl0x3a/pT2NcwqjK9oYVR8aaNj0pU/86j5N44drKepoSVrsc40AXY2yF6VpbrNB6kViYpmEGm/nBtNyaupHRPKTGwsLNi3vb62AI6meHRV8uNlkQl26Y0Liydnpx0SdPCP0kltuFkZWpLu1zInt8CkThBzIOHE9SYOd0JmnnAXxIHq2REP3ffmVXJtWi4tISMbJ5axhymXM+YnLJHd/6pGku7gu5G8f7JuD+6QMahvPspzPkVsJEJq2VyooWWsegyqXSshRgEDLbya7nps096LFB2w+fnPDUIhGkG9IjjQKCAQAtxmAi2gp08L4mF97BbKyXLOfzexmML4T9M6Hm8SPatxOVdWgGCaXA92HBrMQZXE9pzp0COcCRWEjp/bq+n/1BebY9HiAU4HCM5Jdlh9foDC14bztpdSij/oqwG2LduMOjy+gWAVInSa5yVy9mbWk2yqEeFgdgyBRBhbPLt++T0dx1ivi8EO5viwuHhzSqBtT88x3ZzW6wqIPHJzYRu9qa/1W5TciWnFaSDKCjLa0OLVXRUQbvLtzOthYPEgCw32x/Y+QoL6JPW0OTakz5bjxvTv1ed6Jno0qp3BwUpT700l200bFqv9Ki3EhtGc0Et/7UNjEp/wHLUil54C/JwWfS\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/rsa",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"rsa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:22:50 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "AES",
+			"item": [
+				{
+					"name": "Encrypt 128",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\",\r\n    \"bit\": \"128\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/aes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"aes"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Encrypt 128",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\",\r\n    \"bit\": \"128\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/aes",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"aes"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:23:04 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"ZDD7isaF9+Ks/28iYH1qKkAOxEWwXfzTXUfP8NU2RUCDPesNKO4brIULu7HW7rgW\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Decrypt 128",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"/xC0PwWjVfrNHuEjcYIM/HVcOFLskcVFmVbOT2WjZlZevrVli6mWzo3XCnA4Z1FX\",\r\n    \"bit\": \"128\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/aes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"aes"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Decrypt 128",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"/xC0PwWjVfrNHuEjcYIM/HVcOFLskcVFmVbOT2WjZlZevrVli6mWzo3XCnA4Z1FX\",\r\n    \"bit\": \"128\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/aes",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"aes"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:23:15 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Encrypt 192",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\",\r\n    \"bit\": \"192\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/aes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"aes"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Encrypt 192",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\",\r\n    \"bit\": \"192\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/aes",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"aes"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:23:24 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"xp6H+b1Uj0Z3JyEcT9nD00hUz2eBgXX+lC1oxviMh5KchbgicfKHdKkOv7EZp1WC\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Decrypt 192",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"rakGEyomSGtTXBKAooUvzm76FLLKsL8ad7d0lAtRIBFMzGXWdtEDIDJhu/RoLF/2\",\r\n    \"bit\": \"192\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/aes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"aes"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Decrypt 192",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"rakGEyomSGtTXBKAooUvzm76FLLKsL8ad7d0lAtRIBFMzGXWdtEDIDJhu/RoLF/2\",\r\n    \"bit\": \"192\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/aes",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"aes"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:23:34 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Encrypt 256",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\",\r\n    \"bit\": \"256\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/aes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"aes"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Encrypt 256",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"encrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"hahahihi\",\r\n    \"bit\": \"256\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/aes",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"aes"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:23:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"YGx8rBeBdc+YVZVbm5ZtzKX2ehGg2pQQTrXPCtMSV66rvqrtG39/agPssQQjfkQF\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Decrypt 256",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"BziaSuCcf7Ba+Rp59hHAOcuB9PSZyEYTKl3YTjSIxIYJxUXQJuPtgjJT+kSOoH6q\",\r\n    \"bit\": \"256\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/aes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"aes"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Decrypt 256",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"operationMode\": \"decrypt\",\r\n    \"secret\": \"jebret\",\r\n    \"input\": \"BziaSuCcf7Ba+Rp59hHAOcuB9PSZyEYTKl3YTjSIxIYJxUXQJuPtgjJT+kSOoH6q\",\r\n    \"bit\": \"256\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/aes",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"aes"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 08 Sep 2022 08:23:52 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"SUCCESS\",\n    \"message\": \"SUCCESS\",\n    \"encrypt\": \"hahahihi\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
