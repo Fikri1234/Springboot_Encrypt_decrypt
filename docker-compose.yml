@@ -1,0 +1,30 @@
+version: '3.8'
+services: 
+    redis-server:
+        image: redis:7.0.4-alpine
+        container_name: $CACHE_URL
+        restart: always
+        ports:
+          - $CACHE_PORT:$CACHE_DOCKER_PORT
+        command: redis-server --save 20 1 --loglevel warning --requirepass $CACHE_AUTH
+        volumes: 
+          - ./redis-server:/data
+    app:
+        image: springboot-encrypt
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        container_name: springboot-encrypt
+        restart: on-failure
+        env_file: ./.env
+        ports:
+            - $PORT:$SPRING_DOCKER_PORT
+        volumes:
+            - .m2:/root/.m2
+        stdin_open: true
+        tty: true
+        depends_on:
+            - redis-server
+volumes:
+    redis-server:
+        driver: local
