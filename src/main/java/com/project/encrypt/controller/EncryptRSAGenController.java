@@ -9,6 +9,7 @@ import java.security.KeyPairGenerator;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,6 +20,7 @@ import com.project.encrypt.DTO.EncryptRequest;
 import com.project.encrypt.DTO.RSAGenResponse;
 import com.project.encrypt.constant.EncryptionValueConstant;
 import com.project.encrypt.enumeration.EncryptionTypeEnum;
+import com.project.encrypt.service.RedisService;
 
 /**
  * @author user on 2022-09-04 06:03:38.093
@@ -28,7 +30,8 @@ import com.project.encrypt.enumeration.EncryptionTypeEnum;
 @RestController
 public class EncryptRSAGenController {
 	
-//	private static final DateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+	@Autowired
+	private RedisService redisService;
 
 	/*
 	 * 512 1024 2048 4096
@@ -69,27 +72,31 @@ public class EncryptRSAGenController {
 					return ResponseEntity.ok(resp);
 				}
 				
-				KeyPairGenerator kpg = KeyPairGenerator.getInstance("RSA");
+				RSAGenResponse respRedis = redisService.getValue(String.valueOf(initNum));
 				
-				kpg.initialize(initNum);
-				KeyPair kp = kpg.generateKeyPair();
+				if (respRedis == null) {
 				
-				Key pub = kp.getPublic();
-				Key pvt = kp.getPrivate();
-				
-				String encodedPub = Base64.getEncoder().encodeToString(pub.getEncoded());
-				String encodedPvt = Base64.getEncoder().encodeToString(pvt.getEncoded());
-	
-				resp.setStatus(EncryptionValueConstant.STATUS_SUCCESS);
-				resp.setMessage(EncryptionValueConstant.STATUS_SUCCESS);
-				resp.setPublicKey(encodedPub);
-				resp.setPrivateKey(encodedPvt);
-				
-//				String tmpdir = System.getProperty("java.io.tmpdir");
-//				
-//				String fileDate = sdf.format(new Date());
-//				
-//				generatePublicKeyAndPrivateKey(kp, tmpdir + "/" + fileDate);
+					KeyPairGenerator kpg = KeyPairGenerator.getInstance("RSA");
+					
+					kpg.initialize(initNum);
+					KeyPair kp = kpg.generateKeyPair();
+					
+					Key pub = kp.getPublic();
+					Key pvt = kp.getPrivate();
+					
+					String encodedPub = Base64.getEncoder().encodeToString(pub.getEncoded());
+					String encodedPvt = Base64.getEncoder().encodeToString(pvt.getEncoded());
+		
+					resp.setStatus(EncryptionValueConstant.STATUS_SUCCESS);
+					resp.setMessage(EncryptionValueConstant.STATUS_SUCCESS);
+					resp.setPublicKey(encodedPub);
+					resp.setPrivateKey(encodedPvt);
+					
+					redisService.setValue(String.valueOf(initNum), resp);
+					
+				} else {
+					resp = respRedis;
+				}
 	
 				return ResponseEntity.ok(resp);
 			}
@@ -109,16 +116,5 @@ public class EncryptRSAGenController {
 			return ResponseEntity.ok(resp);
 		}
 	}
-	
-//	private static void generatePublicKeyAndPrivateKey(KeyPair keypair, String outputFileWithoutExtension)
-//            throws IOException {
-//        OutputStream out = new FileOutputStream(outputFileWithoutExtension + ".key");
-//        out.write(keypair.getPrivate().getEncoded());
-//        out.close();
-// 
-//        out = new FileOutputStream(outputFileWithoutExtension + ".pub");
-//        out.write(keypair.getPublic().getEncoded());
-//        out.close();
-//    }
 
 }

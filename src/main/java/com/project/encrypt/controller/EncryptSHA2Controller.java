@@ -6,7 +6,6 @@ package com.project.encrypt.controller;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.Base64;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,6 +16,7 @@ import com.project.encrypt.DTO.EncryptRequest;
 import com.project.encrypt.DTO.GeneralEncryptDecryptResponse;
 import com.project.encrypt.constant.EncryptionValueConstant;
 import com.project.encrypt.enumeration.EncryptionTypeEnum;
+import com.project.encrypt.util.EncryptionUtil;
 
 /**
  * @author user on 2022-09-04 06:03:38.093
@@ -70,7 +70,7 @@ public class EncryptSHA2Controller {
 			}
 			
 			byte[] hash = digest.digest(request.getInput().getBytes(StandardCharsets.UTF_8));
-			String encoded = Base64.getEncoder().encodeToString(hash);
+			String encoded = EncryptionUtil.bytesToHex2(hash);
 
 			resp.setStatus(EncryptionValueConstant.STATUS_SUCCESS);
 			resp.setMessage(EncryptionValueConstant.STATUS_SUCCESS);
