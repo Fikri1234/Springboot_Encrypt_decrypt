@@ -33,7 +33,7 @@ import com.project.encrypt.util.EncryptionUtil;
 public class Encrypt3DESController {
 	
 	@PostMapping("/3des")
-	public ResponseEntity<?> encrypt3DES(@RequestBody EncryptRequest request) {
+	public ResponseEntity<GeneralEncryptDecryptResponse> encrypt3DES(@RequestBody EncryptRequest request) {
 
 		GeneralEncryptDecryptResponse resp = new GeneralEncryptDecryptResponse();
 		resp.setStatus(EncryptionValueConstant.STATUS_ERROR);
@@ -64,8 +64,7 @@ public class Encrypt3DESController {
 				resp.setMessage(EncryptionValueConstant.STATUS_UNKNOWN_OPERATION_MODE);
 				return ResponseEntity.ok(resp);
 			} catch (Exception e) {
-				// TODO: handle exception
-				e.printStackTrace();
+				
 				resp.setMessage(e.getMessage());
 				return ResponseEntity.ok(resp);
 			}

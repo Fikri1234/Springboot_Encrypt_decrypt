@@ -31,9 +31,7 @@ public class EncryptionRSAUtil {
 			KeyFactory keyFactory = KeyFactory.getInstance("RSA");
 			publicKey = keyFactory.generatePublic(keySpec);
 			return publicKey;
-		} catch (NoSuchAlgorithmException e) {
-			e.printStackTrace();
-		} catch (InvalidKeySpecException e) {
+		} catch (NoSuchAlgorithmException | InvalidKeySpecException e) {
 			e.printStackTrace();
 		}
 		return publicKey;
@@ -56,10 +54,12 @@ public class EncryptionRSAUtil {
 		} catch (NoSuchAlgorithmException e) {
 			e.printStackTrace();
 		}
-		try {
-			privateKey = keyFactory.generatePrivate(keySpec);
-		} catch (InvalidKeySpecException e) {
-			e.printStackTrace();
+		if (keyFactory != null) {
+			try {
+				privateKey = keyFactory.generatePrivate(keySpec);
+			} catch (InvalidKeySpecException e) {
+				e.printStackTrace();
+			}
 		}
 		return privateKey;
 	}

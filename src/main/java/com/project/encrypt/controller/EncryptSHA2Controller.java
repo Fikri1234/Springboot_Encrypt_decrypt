@@ -84,7 +84,7 @@ public class EncryptSHA2Controller {
 			resp.setMessage(e.getMessage());
 			return ResponseEntity.ok(resp);
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 			e.printStackTrace();
 			resp.setMessage(e.getMessage());
 			return ResponseEntity.ok(resp);
